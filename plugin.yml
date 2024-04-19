@@ -1,0 +1,6 @@
+name: CustomBossBar
+version: 1.0.0
+author: Terpz710
+api: 5.0.0
+main: Terpz710\CustomBossBar\Loader
+description: Allows players to add in customizable BossBars

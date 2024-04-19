@@ -1,0 +1,33 @@
+# Made by Terpz710
+# Made with love <3
+
+# Creation: Thursday, March 28 2024 at 12:15 pm
+# Last update: NONE
+
+# Bossbar Percentage
+# Min: 0.0
+# Between: 0.5
+# Max: 1
+
+percentage: 1
+
+# Bossbar Title
+# The boss bar gets bugged so if your text is to far to the left use spaces to even it out.
+
+# Example: "        Your Title"
+
+title: "§l§eSkyblock"
+
+# Bossbar Subtitle
+# The boss bar gets bugged so if your text is to far to the left use spaces to even it out.
+
+# Example: "        Your Subtitle"
+
+subtitle: "Welcome!"
+
+# Bossbar color
+# You can now modify the color of the boss bar!
+
+# Colors: BLUE, RED, PURPLE, YELLOW, WHITE, GREEN, PINK and REBECCA_PURPLE
+
+color: "YELLOW"
