@@ -32,6 +32,11 @@ class Loader extends PluginBase implements Listener
         $this->getScheduler()->scheduleRepeatingTask(new BarTask($this), 20);
     }
 
+    public function getMessages(): Config
+    {
+        return $this->messages;
+    }
+
     public function onJoin(PlayerJoinEvent $ev)
     {
         self::$bar->addPlayer($ev->getPlayer());
