@@ -12,5 +12,5 @@ Everything is customizable!
 
 # Todo
 
-* Add per world boss bar/toggle disable world
-* Make the title/subtitle change between specified intervals
+- [ ] Add per world boss bar/toggle disable world
+- [ ] Make the title/subtitle change between specified intervals
