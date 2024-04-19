@@ -23,9 +23,10 @@ class BarTask extends Task
     {
         foreach (Server::getInstance()->getWorldManager()->getDefaultWorld()->getPlayers() as $player) {
             $bar = $this->plugin::$bar;
-            $bar->setTitle($this->plugin->messages->get("title"));
-            $bar->setSubTitle($this->plugin->messages->get("subtitle"));
-            $color = $bar->getColorByName($this->plugin->messages->get("color"));
+            $messages = $this->plugin->getMessages();
+            $bar->setTitle($messages->get("title"));
+            $bar->setSubTitle($messages->get("subtitle"));
+            $color = $bar->getColorByName($messages->get("color"));
             $bar->setColor($color);
         }
     }
